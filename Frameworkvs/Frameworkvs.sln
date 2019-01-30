@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{4AE9EA66-EB4F-4C8D-A711-FA2433DDE6AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business logic", "Business logic\Business logic.csproj", "{4628DBC8-2623-41CE-AEAA-320DA3AFC70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{EE839BEC-5450-4E91-99BB-B61ECC9EA426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE9EA66-EB4F-4C8D-A711-FA2433DDE6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE9EA66-EB4F-4C8D-A711-FA2433DDE6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE9EA66-EB4F-4C8D-A711-FA2433DDE6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE9EA66-EB4F-4C8D-A711-FA2433DDE6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4628DBC8-2623-41CE-AEAA-320DA3AFC70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4628DBC8-2623-41CE-AEAA-320DA3AFC70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4628DBC8-2623-41CE-AEAA-320DA3AFC70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4628DBC8-2623-41CE-AEAA-320DA3AFC70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE839BEC-5450-4E91-99BB-B61ECC9EA426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE839BEC-5450-4E91-99BB-B61ECC9EA426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE839BEC-5450-4E91-99BB-B61ECC9EA426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE839BEC-5450-4E91-99BB-B61ECC9EA426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32B8EA1B-B0ED-4802-921C-62E36D99B6DC}
+	EndGlobalSection
+EndGlobal

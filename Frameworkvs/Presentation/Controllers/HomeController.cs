@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business_logic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,9 @@ namespace Presentation.Controllers
     {
         public ActionResult Index()
         {
+            EstadoBl user = new EstadoBl();
+            user.cadastra();
+
             return View();
         }
 
